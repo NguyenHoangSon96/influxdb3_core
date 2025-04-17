@@ -624,7 +624,7 @@ pub fn make_server(
     server: Arc<dyn QueryDatabase>,
     authz: Option<Arc<dyn Authorizer>>,
 ) -> FlightServer<impl Flight> {
-    println!("SSSSSS")
+    println!("AAAAA");
     FlightServer::new(FlightService { server, authz })
 }
 
